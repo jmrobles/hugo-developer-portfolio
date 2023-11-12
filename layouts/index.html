@@ -44,7 +44,7 @@
         <li><a href="https://twitter.com/{{ .Site.Data.homepage.social.twitter }}" > <img
                     class="contain" src="https://cdn.svgporn.com/logos/twitter.svg" alt="Twitter" loading="lazy"></a></li>
         {{ end }} {{ if .Site.Data.homepage.social.mastodon }}
-        <li><a href="{{ .Site.Data.homepage.social.mastodon }}" > <img
+        <li><a rel="me" href="{{ .Site.Data.homepage.social.mastodon }}" > <img
             class="contain" src="https://cdn.svgporn.com/logos/mastodon-icon.svg" alt="Mastodon" loading="lazy"></a></li>
         {{ end }} {{ if .Site.Data.homepage.social.linkedin }}
         <li><a href="https://www.linkedin.com/in/{{ .Site.Data.homepage.social.linkedin }}">
